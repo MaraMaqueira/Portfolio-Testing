@@ -1,15 +1,15 @@
 body {
-    font-family: 'Roboto', Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #bbaa96;
-    color: #ede2ce;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.8;
+    background-color: #f5f3ef; 
+    color: #3b3a36; 
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #bbaa96;
-    color: white;
+    background-color: #2c3e50; 
+    color: #f5f3ef; 
     text-align: center;
     padding: 1.5em;
 }
@@ -17,6 +17,7 @@ header {
 header img {
     max-width: 120px;
     border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
 }
 
 main {
@@ -24,9 +25,10 @@ main {
 }
 
 h2 {
-    color: #ede2ce;
+    color: #2c3e50; 
     text-align: center;
     margin-bottom: 1em;
+    font-weight: bold;
 }
 
 .team-members {
@@ -37,7 +39,8 @@ h2 {
 }
 
 .member {
-    background: #102660;
+    background: #ffffff; 
+    border: 2px solid #d4cfc0; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1em;
@@ -50,18 +53,43 @@ h2 {
     height: 100px;
     border-radius: 50%;
     margin-bottom: 1em;
+    border: 3px solid #8b9b79;
 }
 
 .member a {
-    color: #bbaa96;
+    color: #8b9b79; 
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.member a:hover {
+    color: #2c3e50; 
+}
+
+#proyecto ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#proyecto ul li {
+    margin: 1em 0;
+}
+
+iframe {
+    border: 2px solid #d4cfc0;
+    border-radius: 8px;
+    margin: 1em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 footer {
-    background-color: #102660;
-    color: white;
+    background-color: #2c3e50; 
+    color: #f5f3ef; 
     text-align: center;
-    padding: 1em;
+    padding: 1.5em;
+    font-size: 0.9em;
 }
+
 
