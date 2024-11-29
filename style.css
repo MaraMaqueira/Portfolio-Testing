@@ -1,14 +1,14 @@
 body {
     font-family: 'Roboto', Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #bbaa96;
+    color: #ede2ce;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #4a148c;
+    background-color: #bbaa96;
     color: white;
     text-align: center;
     padding: 1.5em;
@@ -24,7 +24,7 @@ main {
 }
 
 h2 {
-    color: #4a148c;
+    color: #ede2ce;
     text-align: center;
     margin-bottom: 1em;
 }
@@ -37,7 +37,7 @@ h2 {
 }
 
 .member {
-    background: white;
+    background: #102660;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1em;
@@ -53,13 +53,13 @@ h2 {
 }
 
 .member a {
-    color: #4a148c;
+    color: #bbaa96;
     text-decoration: none;
     font-weight: bold;
 }
 
 footer {
-    background-color: #4a148c;
+    background-color: #102660;
     color: white;
     text-align: center;
     padding: 1em;
